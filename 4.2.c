@@ -4,6 +4,7 @@
 #include<arpa/inet.h>	//inet_addr
 #include<unistd.h>	//write
 
+
 int main(int argc , char *argv[])
 {
 	int socket_desc , new_socket , c;
