@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
         if(socket_desc < 0)
             perror("socket()");
 
-        server.sin_addr.s_addr = inet_addr("192.168.68.111");
+        server.sin_addr.s_addr = inet_addr("IP my Dude"); //Insert your Server IP
         server.sin_family = AF_INET;
         server.sin_port = htons( 4545 );
 
